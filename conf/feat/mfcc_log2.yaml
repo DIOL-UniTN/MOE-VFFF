@@ -1,0 +1,8 @@
+_target_: feature.MFCCLog2
+
+n_mfcc: 13
+n_mels: 64
+window_hop: [400, 256] # n_fft/win_len, hop_len
+center: False
+log_mels: True
+norm: 0

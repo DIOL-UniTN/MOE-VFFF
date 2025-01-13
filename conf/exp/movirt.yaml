@@ -1,0 +1,7 @@
+_target_: experiment.MOVirtSearch
+
+model_file: 'pretrained_models/fff/model_sc.pt'
+fim_file: 'data/fim/fim_sc.pt'
+pop_size: 10
+n_gens: 10
+max_params: 100000

@@ -1,0 +1,6 @@
+_target_: loader.SCLoader
+
+sample_rate: 16000
+batch_size: 512
+feature: ${feat}
+debug: ${debug}

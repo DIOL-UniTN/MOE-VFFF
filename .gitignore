@@ -1,0 +1,9 @@
+__pycache__
+data
+*env
+*edge*
+*jaco*
+har
+pretrained_models
+conf/mlflow_password.yaml
+*swp

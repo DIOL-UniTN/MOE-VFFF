@@ -1,0 +1,10 @@
+_target_: experiment.WeightVirtualization
+
+model_file: 'models/fff/model_sc.pt'
+fim_file: 'data/fim/fim.pt'
+weights_pages: [122, 300]
+# weights_per_page: 122
+# n_virtualpages: 300
+search_type: greedy_random # greedy_base, greedy_expand, greedy_random, greedy_fisher
+kappa: 0.0 # matching reg.
+n_splits: 2 # For splitted leaf matching

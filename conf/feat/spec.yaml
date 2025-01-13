@@ -1,0 +1,5 @@
+_target_: torchaudio.transforms.Spectrogram
+
+n_fft: 128
+hop_length: 256
+center: False

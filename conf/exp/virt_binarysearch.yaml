@@ -1,0 +1,5 @@
+_target_: experiment.VirtBinarySearch
+
+model_file: 'pretrained_models/fff/model_sc.pt'
+fim_file: 'data/fim/fim_sc.pt'
+min_amount: 0.5

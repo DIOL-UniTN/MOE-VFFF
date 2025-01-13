@@ -1,0 +1,4 @@
+_target_: experiment.PrintSimilarities
+
+model_file: 'models/fff/model_sc.pt'
+

@@ -1,0 +1,10 @@
+_target_: loader.MNISTLoader
+
+batch_size: 512
+
+normalize:
+  _target_: torchvision.transforms.Normalize
+  mean: [0.1307, ]
+  std: [0.3801, ]
+
+debug: ${debug}

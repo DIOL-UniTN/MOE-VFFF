@@ -1,0 +1,4 @@
+_target_: torchaudio.transforms.MFCC
+_partial_: True
+
+n_mfcc: 40

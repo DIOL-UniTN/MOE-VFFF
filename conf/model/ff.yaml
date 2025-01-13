@@ -1,0 +1,5 @@
+_target_: models.BaseFF
+_partial_: True # in_channels, num_classes (out_dim), image_size (in_hxw[0] or in_hxw) / before
+
+hidden_width: 256 # lw 16, d 4 -> hw lw*(2**d)
+dropout: 0

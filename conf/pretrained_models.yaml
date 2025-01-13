@@ -1,0 +1,46 @@
+# Each with 16 leaf width
+model_ids:
+  mnist: [
+      703252afe3c1432387920fe9cb40be86, # depth of 1
+      5d0a77f4bf444682bae05c19e51df9e8, # 2
+      ae23d71f27de4d3795da73922a5092ef, # 3
+      null,
+      null,
+      ]
+  har: [
+      d9db57bd9a554df69dbb0bfe4cb611a8, # depth of 1
+      9106c9f218074f9f9e1de2ee1712cd86, # 2
+      4037b12dd90641989d4cf319a411dddd, # 3
+      null,
+      null,
+      ]
+  sc: [
+      9661971757b6408db62b90f5f967ef1f, # depth of 1
+      c88995552afa4ad78bb7634ead6866c1, # 2
+      7e8d08fc9eff44cfa0e534deabf36c8e, # 3
+      null,
+      null,
+      ]
+# Each with 16 leaf width
+fim_ids :
+  mnist: [
+      8a9346b9591a4063bbb135d00fcfc1fc, # depth of 1
+      9994359534394b919ada589a60c69e2f,
+      ee9f4765e12843279cf815dab98a6d9f,
+      null,
+      null,
+      ]
+  har: [
+      39cbd763446547dca7abc4ec1de8158d, # depth of 1
+      2bcfa1d9b4574275ab89fb02c2766323,
+      ad872014ded148448d316182b4e95aea,
+      null,
+      null,
+      ]
+  sc: [
+      608b181dbef447c481009cc8af9f1f61, # depth of 1
+      737fa3c09b904b0081fe29eee0bc4054,
+      0eb5ae0aa3594ff99218967092d19068,
+      null,
+      null,
+      ]

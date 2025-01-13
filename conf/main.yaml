@@ -1,0 +1,36 @@
+_target_: main.Main
+
+proj_name: adaptivefff
+
+defaults:
+  # Main
+  - _self_
+  - loader: sc
+  - optim: adam
+  - model: vfff
+  - exp: weightvirt
+  - feat: mfcc
+  - mlflow_password
+  - pretrained_models
+
+device: 
+  _target_: torch.device
+  type: cuda
+  index: 0
+
+epochs: 35
+debug: False
+seed: 47
+deterministic: False # Issue with setting in weight_merge
+
+## Output dir
+hydra:
+  run:
+    dir: data/outputs/${exp._target_}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: data/multirun/${exp._target_}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    env_set:
+      MLFLOW_TRACKING_URI: https://dagshub.com/berab/adaptivefff.mlflow 
+      MLFLOW_TRACKING_USERNAME: berab 
+    name: ${proj_name}_${exp._target_}

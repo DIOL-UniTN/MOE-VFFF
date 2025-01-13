@@ -1,0 +1,10 @@
+_target_: models.BaseConvFFF
+_partial_: True # in_channels, num_classes (out_dim), image_size (in_hxw[0] or in_hxw) / before
+
+leaf_width: 16
+depth: 4
+dropout: 0
+region_leak: 0
+in_channels: 1
+out_channels: 32
+kernel_size: 3

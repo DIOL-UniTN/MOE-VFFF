@@ -1,0 +1,7 @@
+_target_: loader.HARLoader
+
+batch_size: 512
+
+normalize: null
+
+debug: ${debug}
