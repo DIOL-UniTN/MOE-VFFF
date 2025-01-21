@@ -21,7 +21,7 @@ Note that these scripts run multiple experiments. If you want to run a single ex
 python src/main.py task=task-name exp=experiment-name 
 ```
 - Options for task-name: mnist, har, sc
-- Options for expriment-name: train, randomvirt, weightvirt, generate_fim
+- Options for expriment-name: train, movirt, randomvirt, weightvirt, generate_fim
   
 Please see YAML files inside conf directory to see more details regarding configurations. 
 Code, data (including pretrained models and their corresponding fisher information matrices), and results are available at: https://dagshub.com/berab/adaptivefff.
