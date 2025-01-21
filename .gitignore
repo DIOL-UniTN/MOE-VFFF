@@ -1,9 +1,6 @@
 __pycache__
 data
-*env
-*edge*
-*jaco*
-har
-pretrained_models
+adaptivefff_env
 conf/mlflow_password.yaml
 *swp
+*swo
