@@ -1,0 +1,7 @@
+_target_: experiment.RandomVirtSearch
+
+model_file: 'pretrained_models/fff/model_sc.pt'
+fim_file: 'data/fim/fim_sc.pt'
+pop_size: 100
+max_params: 100000
+n_objs: 2

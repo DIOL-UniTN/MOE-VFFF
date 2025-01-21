@@ -7,3 +7,4 @@ from .virtualpage_binary_search import VirtBinarySearch
 from .ga_res_analysis import GAAnalysis
 from .fff_analysis import FFFAnalysis
 from .mlflow_test import MLFlowTest
+from .randomvirt import RandomVirtSearch

@@ -1,8 +1,0 @@
-_target_: experiment.WeightVirtualizationAnysize
-
-model_file: 'pretrained_models/fff/model_sc.pt'
-fim_file: 'data/fim/fim_sc.pt'
-search_type: greedy_randomleafsplit # greedy_base, greedy_expand, greedy_random, greedy_fisher
-n_splits: 2 # For splitted leaf matching
-amount: 0.5
-weights_per_page: 100
